@@ -9,7 +9,7 @@ def get_tb(tb):
     timearr = tb.split('-')
     return 24 * (int(timearr[2]) - 10) + int(timearr[3])
 
-datadir = "/Users/laisijia/data/ctrpredict/in/"
+datadir = "./data/"
 
 column1 = ['time', 'id', 'slot', 'click']
 column2 = ['time', 'id', 'slot', 'display']

@@ -18,7 +18,7 @@ column2 = ['time_bucket', 'id', 'slot', 'display']
 dtype1 = {'time_bucket':str, 'id':str, 'slot':str, 'click':int}
 dtype2 = {'time_bucket':str, 'id':str, 'slot':str, 'display':int}
 
-workdir = "/Users/laisijia/data/ctrpredict/in/"
+workdir = "./data/"
 
 # load
 df1 = pandas.read_csv(workdir + "all_click.tsv", encoding='utf-8', names=column1, dtype=dtype1, sep='\t')

@@ -10,8 +10,8 @@ import sys
 import gzip
 import collections
 
-workdir = "/Users/laisijia/data/ctrpredict/in/"
-outdir = "/Users/laisijia/data/ctrpredict/in/"
+workdir = "./data/"
+outdir = "./data/"
 listfiles = os.listdir(workdir)
 dims = ['display', 'click']
 for filename in listfiles:
